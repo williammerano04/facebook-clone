@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(28,28,29);
+    height: 3000px;
+    padding-top: 55px;
+   z-index: 1;
+}
+input::placeholder{
+    font-family: Roboto, arial;
+    color: rgb(152,154,160);
+}
+p{
+    font-family: Roboto, arial;
+    margin: 0px;
+    color: white;
+}
+hr{
+    width: 100%;
+    background-color: rgb(83, 83, 83);
+    border: none;
+    height: 1px;
+    opacity: 0.5px
+    ;
+}

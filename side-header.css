@@ -1,0 +1,224 @@
+.side-header{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 55px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: center;
+}
+@media (max-width:1920px){
+    .side-header{
+        justify-content: space-between;
+    }
+}
+.sideheader-spaceflex{
+    flex: 1;
+    min-width: 480px;
+    max-width: 680px;
+    visibility: 0;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+/*left section*/
+.sideheader-left{
+    flex: 1;
+    min-width: 280px;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    justify-content: space-between;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.sideheader-left:hover{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.sideheader-left::-webkit-scrollbar {
+    width: 8px;
+}
+.sideheader-left::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 30px;
+}
+.sideheader-left::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 30px;
+}
+
+.sideheader-section-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 8px;
+   
+    
+}
+.sideheader-section{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 8px;
+    align-items: center;
+    height: 51.5px;
+    cursor: pointer;
+}
+.sideheader-logo-container{
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+.sideheader-logo{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.sideheader-logo2{
+    width: 25px;
+    height: 25px;
+    padding: 6.5px;
+    border-radius: 50%;
+    background-color: rgb(72,72,72)
+}
+.sideheader-text-container{
+    font-size: 15px;
+    margin-left: 15px;
+}
+.sideheader-text{
+    color: white;
+    text-overflow: ellipsis;
+    white-space: wrap;
+}
+.sideheader-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px 9px;
+    color: #989AA0;
+    font-weight: bold;
+}
+.sideheader-logo3{
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.sideheader-section-container-bottom{
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    font-size: 12px;
+    flex-wrap: wrap;
+}
+.sideheader-section-container-bottom p{
+    color: #989AA0;
+}
+.space-in-between{
+    display: flex;
+    flex-direction: column;
+    
+}
+@media (max-width:1100px){
+    .sideheader-left{
+        display: none;
+    }
+}
+/* right section */
+.sideheader-right{
+    flex: 1;
+    min-width: 280px;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding-right: 15px;  
+}
+.sideheader-right:hover{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.sideheader-right::-webkit-scrollbar {
+    width: 8px;
+}
+.sideheader-right::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 30px;
+}
+.sideheader-right::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 30px;
+}
+
+.sideheader-right-contact-searchhmore-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    position: relative;
+    align-items: center;
+    height: 30px;
+}
+.contact-text{
+    color: #989AA0;
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+.sideheader-right-searchmore-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    gap: 5px;
+}
+.sideheader-right-searchmore{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+.sideheader-right-searchmore-logo{
+    height: 18px;
+    width: 18px;
+}
+.sideheader-text2{
+    color: #989AA0;
+}
+.sideheader-section:hover {
+    background-color: rgb(51,51,52);
+    border-radius: 10px;
+}
+.sideheader-right-searchmore:hover{
+    background-color: rgb(51,51,52);
+    border-radius: 50%;
+    
+    
+}
+.sideheader-right-searchmore:hover .hover-text{
+    opacity: 100%;
+    right: 0;
+    transition: 0.3s;
+}
+.active-logo{
+    position: absolute;
+    background-color: rgb(63, 187, 70);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(28,28,29);
+    right: 1px;
+    bottom: 1px;
+}
+@media (max-width:900px){
+    .sideheader-right{
+        display: none;
+    }
+}

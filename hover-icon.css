@@ -1,0 +1,198 @@
+.hover-text{
+    display: flex;
+    position: absolute;
+    background-color: #E2E5E9;
+    font-size: 12px;
+    padding: 10px 12px;
+    border-radius: 11px;
+    border: none;
+    opacity: 0%;
+    bottom: -38px;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.hover-text p{
+    color: black;
+}
+.hover-text2{
+    display: flex;
+    position: absolute;
+    background-color: #E2E5E9;
+    font-size: 12px;
+    padding: 10px 12px;
+    border-radius: 11px;
+    border: none;
+    opacity: 0%;
+    bottom: -35px;
+    left: auto;
+    white-space: nowrap;
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+}
+.hover-text2 p{
+    color: black;
+}
+.hover-text3{
+    display: flex;
+    position: absolute;
+    background-color: #E2E5E9;
+    font-size: 12px;
+    padding: 10px 12px;
+    border-radius: 11px;
+    border: none;
+    opacity: 0%;
+    top: 26px;
+    left: auto;
+    white-space: nowrap;
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+}
+.hover-text3 p{
+    color: black;
+}
+.chat-header-option-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    top: -45px;
+    right: 10px;
+    background-color: rgb(70,72,75);
+    opacity: 0%;
+}
+.chat-header-option{
+    width: 23px;
+    cursor: pointer;
+    
+}
+/* hover middle profile*/
+.hover-middle-body-profile{
+    width: 398px;
+    background-color: rgb(28,28,29);
+    padding: 16px 16px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border: solid;
+    border-color: rgb(70,72,75);
+    border-width: 1px;
+    opacity: 0%;
+    pointer-events: none;
+    bottom: -220px;
+    left: auto;
+    right: auto;
+}
+
+.hover-middle-body-section{
+    padding: 0px 12px;
+    display: flex;
+    flex-direction: row;
+}
+.hover-middle-body-pp-section2{
+    display: flex;
+    flex-direction: column;
+}
+.hover-middle-body-pp{
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.hover-middle-body-pp:hover{
+    opacity: 80%;
+}
+.hover-middle-body-name p{
+    padding: 4px 16px 0px;
+    margin-bottom: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.hover-middle-body-info-container{
+    display: flex;
+    flex-direction: row;
+    padding: 8px 16px;
+    align-items: center;
+}
+span:hover{
+    cursor: pointer;
+}
+span:hover{
+    text-decoration: underline;
+}
+.hover-middle-body-logo-container{
+    display: flex;
+    align-items: center;
+    height: 32px;
+    width: 32px;
+}
+.hover-middle-body-logo{
+    height: 20px;
+    width: 20px;
+}
+
+.hover-middle-body-text-container{
+    display: flex;
+    align-items: start;
+    flex: 1;
+}
+.hover-middle-body-text{
+    font-size: 15px;
+}
+.hover-middle-body-pp-section3{
+    display: flex;
+    flex-direction: row;
+    height: 36px;
+    gap: 5px;
+    padding: 6px;
+}
+.hover-middle-body-pp-section3 P{
+    font-size: 15px;
+}
+.hover-middle-body-pp-section3 button{
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+}
+.hover-middle-body-add-button{
+    background-color: rgb(49,49,50);
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.hover-middle-body-add-button:hover{
+    background-color: rgb(91, 91, 92);
+}
+.hover-middle-body-msg-button:hover{
+    background-color: rgb(82, 148, 255);;
+}
+.hover-middle-body-msg-button{
+    flex:1;
+    background-color: rgb(8,102,255);
+    z-index: 2;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.hover-middle-body-more-button{
+    background-color: rgb(49,49,50);
+    width: 48px;
+}
+.hover-middle-body-more-button:hover{
+    background-color: rgb(91, 91, 92);
+}
+.hover-middle-body-button-icon{
+    height: 16px;
+    width: 16px;
+}
