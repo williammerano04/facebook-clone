@@ -103,6 +103,7 @@
     font-size: 15px;
     flex: 1;
     justify-content: center;
+    cursor: pointer;
 }
 .middle-body-top-secondline-icon-container{
     height: 30px;
